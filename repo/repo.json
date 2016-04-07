@@ -7,7 +7,7 @@
         },
         "dist": {
           "type": "heroku-sys-tar",
-          "url": "https://raw.githubusercontent.com/flant/heroku-buildpack-php/master/vendor/cassandra.tgz"
+          "url": "https://raw.githubusercontent.com/flant/heroku-buildpack-php/master/repo/cassandra.tgz"
         },
         "extra": {
           "config": "etc/php/conf.d/cassandra.ini-dist"
