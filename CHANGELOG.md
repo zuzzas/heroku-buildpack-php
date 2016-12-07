@@ -1,5 +1,76 @@
 # heroku-buildpack-php CHANGELOG
 
+## v110 (2016-08-26)
+
+### ADD
+
+- ext-ev/1.0.3 [David Zuelke]
+- ext-phalcon/2.0.13 [David Zuelke]
+- ext-cassandra/1.2.2 [David Zuelke]
+- ext-blackfire/1.12.0 [David Zuelke]
+- ext-newrelic/6.6.0 [David Zuelke]
+- PHP/5.6.25 [David Zuelke]
+- PHP/7.0.10 [David Zuelke]
+- ext-phalcon/3.0.1 [David Zuelke]
+
+### CHG
+
+- Retry downloads up to three times during bootstrapping [David Zuelke]
+- Composer/1.2.0 [David Zuelke]
+
+## v109 (2016-07-21)
+
+### ADD
+
+- PHP/7.0.9 [David Zuelke]
+- PHP/5.6.24 [David Zuelke]
+- PHP/5.5.38 [David Zuelke]
+
+## v108 (2016-07-08)
+
+### ADD
+
+- ext-oauth/2.0.2 [David Zuelke]
+- ext-mongodb/1.1.8 [David Zuelke]
+- ext-blackfire/1.11.1 [David Zuelke]
+- PHP/5.5.37 [David Zuelke]
+- PHP/5.6.23 [David Zuelke]
+- PHP/7.0.8 [David Zuelke]
+
+### CHG
+
+- Composer/1.1.3 [David Zuelke]
+
+### FIX
+
+- Revert to ext-redis/2.2.7 due to reported segfaults/memleaks [David Zuelke]
+
+## v107 (2016-06-18)
+
+### ADD
+
+- ext-redis/2.2.8 [David Zuelke]
+- ext-redis/3.0.0 [David Zuelke]
+- ext-newrelic/6.4.0 [David Zuelke]
+- ext-blackfire/1.10.6 [David Zuelke]
+
+### FIX
+
+- Custom `COMPOSER` env var breaks platform installs [David Zuelke]
+
+## v106 (2016-06-08)
+
+### ADD
+
+- ext-mongodb/1.1.7 [David Zuelke]
+- ext-cassandra/1.1.0 [David Zuelke]
+- ext-apcu/5.1.5 [David Zuelke]
+- ext-event/2.1.0 [David Zuelke]
+
+### CHG
+
+- Use Composer/1.1.2 [David Zuelke]
+
 ## v105 (2016-05-27)
 
 ### ADD
