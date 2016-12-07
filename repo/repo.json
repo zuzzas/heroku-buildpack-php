@@ -7,20 +7,20 @@
         },
         "dist": {
           "type": "heroku-sys-tar",
-          "url": "https://github.com/flant/heroku-buildpack-php/raw/master/repo/cassandra.tgz"
+          "url": "https://github.com/flant/heroku-buildpack-php/raw/master/repo/msgpack.tgz"
         },
         "extra": {
-          "config": "etc/php/conf.d/cassandra.ini-dist"
+          "config": "etc/php/conf.d/msgpack.ini-dist"
         },
-        "name": "heroku-sys/ext-cassandra",
+        "name": "heroku-sys/ext-msgpack",
         "replace": {},
         "require": {
-          "heroku-sys/php": "5.6.*",
+          "heroku-sys/php": "7.1.*",
           "heroku/installer-plugin": "^1.2.0"
         },
         "time": "2016-03-27 23:02:13",
         "type": "heroku-sys-php-extension",
-        "version": "1.1.0"
+        "version": "7.0.0"
       }
     ]
   ]
