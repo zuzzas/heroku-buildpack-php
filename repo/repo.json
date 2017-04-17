@@ -21,6 +21,27 @@
         "time": "2016-03-27 23:02:13",
         "type": "heroku-sys-php-extension",
         "version": "7.0.0"
+      },
+      {
+        "conflict": {
+          "heroku-sys/hhvm": "*"
+        },
+        "dist": {
+          "type": "heroku-sys-tar",
+          "url": "https://github.com/flant/heroku-buildpack-php/raw/master/repo/cassandra.tgz"
+        },
+        "extra": {
+          "config": "etc/php/conf.d/cassandra.ini-dist"
+        },
+        "name": "heroku-sys/ext-cassandra",
+        "replace": {},
+        "require": {
+          "heroku-sys/php": "7.0.*",
+          "heroku/installer-plugin": "^1.2.0"
+        },
+        "time": "2016-03-27 23:02:13",
+        "type": "heroku-sys-php-extension",
+        "version": "1.1.0"
       }
     ]
   ]
