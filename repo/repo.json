@@ -36,7 +36,7 @@
         "name": "heroku-sys/ext-cassandra",
         "replace": {},
         "require": {
-          "heroku-sys/php": "7.0.*",
+          "heroku-sys/php": "7.1.*",
           "heroku/installer-plugin": "^1.2.0"
         },
         "time": "2016-03-27 23:02:13",
