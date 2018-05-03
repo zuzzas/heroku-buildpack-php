@@ -15,12 +15,12 @@
         "name": "heroku-sys/ext-msgpack",
         "replace": {},
         "require": {
-          "heroku-sys/php": "7.0.*",
+          "heroku-sys/php": "7.1.*",
           "heroku/installer-plugin": "^1.2.0"
         },
         "time": "2016-03-27 23:02:13",
         "type": "heroku-sys-php-extension",
-        "version": "7.0.0"
+        "version": "7.1.0"
       },
       {
         "conflict": {
